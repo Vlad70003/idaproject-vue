@@ -1,4 +1,9 @@
-# idaproject-vue
+# Проект реализован в качестве тестового задания для idaproject-vue,
+и представляет из себя форму для заполнения информации о товаре и добавления ее на страницу.
+<img src="./static/img/prew.PNG"></img>
+
+Так же реализована мобильная версия:
+<img src="./static/img/Prew_mobile.PNG"></img>
 
 ## Build Setup
 
