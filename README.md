@@ -3,7 +3,7 @@
 <img src="./static/img/prew.PNG"></img>
 
 Так же реализована мобильная версия:
-<img src="./static/img/Prew_mobile.PNG"></img>
+<p><img src="./static/img/Prew_mobile.PNG"></img></p>
 
 ## Build Setup
 
