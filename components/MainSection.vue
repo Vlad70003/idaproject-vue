@@ -85,5 +85,18 @@ export default {
         min-width: 850px;
     }
     }
+    @media screen and (max-width: 900px){
+        .main-section__wrapper{
+        min-width: 150px;
+    }
+        .section-content{
+        display: flex;
+        flex-direction: column;
+        }
+        .section-content__null{
+            display: flex;
+            flex-direction: column;
+        }
+    }
     }
 </style>

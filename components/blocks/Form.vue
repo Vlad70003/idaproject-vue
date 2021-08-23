@@ -54,6 +54,9 @@ export default {
         max-height: 20%;
         align-self: flex-start;
     }
+    textarea{
+        resize: none;
+    }
     label{
         font-size: 10px;
         color: #49485E;
@@ -85,7 +88,7 @@ export default {
         font-weight: 600;
     }
     .error{
-        box-shadow: 2px 2px 5px rgba(255, 2, 2, 0.3);
+        box-shadow: 2px 2px 5px rgba(255, 2, 2, 0.5);
     }
     @media screen and (max-width: 1600px){
         form{
@@ -100,4 +103,12 @@ export default {
             font-size: 10px;
         }
     }
+    @media screen and (max-width: 900px){
+        form{
+            margin: 0 auto;
+            margin-bottom: 50px;  
+        }
+
+    }
+        
 </style>

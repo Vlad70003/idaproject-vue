@@ -2,7 +2,7 @@
     <div class="product-list" >
         <ul class="list" >
                 <li class="item" :key="item" v-for="(item, idx) in items" :v-if="show">
-                    <div class="item__img"></div>
+                    <img :src="item.linkProj" alt="Ссылка на изображение не корректна" class="item__img">
                     <div class="item__wrapper">
                     <div class="item__name">{{item.nameProj}}</div>
                     <div class="item__desc">{{item.descProj}}</div>
@@ -107,5 +107,12 @@ export default {
         .item__price{
             font-size: 20px;
         }
+    }
+    @media screen and (max-width: 900px){
+        ul{
+            justify-content: center;
+            padding: 0;
+        }
+           
     }
 </style>
